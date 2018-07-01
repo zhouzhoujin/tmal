@@ -1,0 +1,118 @@
+/*  header */
+#header{
+    width: 100%;
+    line-height: 32px;
+    height: 32px;
+    background-color: #d4d6d4;
+    font-size: 12px;
+}
+ul{
+    list-style: none;
+}
+#login-info,#quick-menu{
+    float: left;
+    margin: 0 auto;
+}
+#login-info,span,#login-info,a  {
+    padding-right:10px;
+}
+/*#login-info,a {*/
+    /*padding-right:10px;*/
+/*}*/
+#quick-menu{
+    float: right;
+
+}
+#quick-menu li{
+    float: left;
+    padding: 0 14px;
+    text-align: center;
+}
+#quick-menu a{
+    margin: 0 auto;
+}
+
+.hiddenList dl dd{
+    padding: 0px;
+    border-bottom: 1px dotted grey;
+    margin: 0 auto;
+    color: black;
+}
+#Search{
+    background:white;
+    font-size: 12px;
+    width: 1330px;
+    height: 130px;
+    position: absolute;
+}
+#Search img{
+    width: 240px;
+    height: 130px;
+    display: inline;
+    padding-left: 45px;
+}
+.Search-list{
+    position: absolute;
+    width: 625px;
+    height: 100px;
+    left: 50%;
+    top: 50%;
+    margin-left:-312.5px;
+    margin-top: -50px;
+}
+.Search-border{
+    position: relative;
+    width: 625px;
+    height: 40px;
+    left: 50%;
+    top: 50%;
+    margin-left:-312.5px;
+    margin-top: -20px;"
+}
+.Search-border input{
+    border: 2px solid #ff5300;
+    padding: 0;
+    width: 77%;
+    height: 40px;
+}
+.Search-border button{
+    border: 2px solid #ff3400;
+    width: 22%;
+    height: 44px;
+    border-bottom-width:6px;
+    background: #ff3400;color: white;
+    font-size: 18px;
+    font-weight:700;
+    letter-spacing: 5px;
+    padding: 0;
+}
+.Search-border li {
+    padding-top: 4px;
+    padding-left: 6px;
+    padding-right: 6px;
+    font-size: 14px;
+    color: #9c9c9c;
+    float: left
+}
+.Search-border a{
+    padding: 0 6px;
+}
+#top{
+    padding-left: 0;
+}
+#header .my::after{
+    content: " ";
+    border-width: 3px;
+    border-style: solid;
+    border-right-color: transparent;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    border-top-color: #fbfdfb;
+    width: 0;
+    position: absolute;
+    top:50%;
+    right: 14%;
+}
+.my{
+    position: relative;
+}
