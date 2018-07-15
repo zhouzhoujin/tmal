@@ -60,23 +60,22 @@ position: absolute;
 right: 4px;
 top: 50%;
 margin-top: -2px;
-
 -webkit-transition: none;
 -moz-transition: none;
 -ms-transition: none;
 -o-transition: none;
 transition: none;
-transform-origin: 3px 1.5px;
+
 }
 
-#header .icon-gouwuchekong{
+#header .icon-gouwuche-copy{
 font-size: 12px;
 color: #FF0036;
 }
 
-#login-info .register{
-padding: 0;
-}
+/*#login-info .register{*/
+/*padding: 0;*/
+/*}*/
 
 #header .triangle:hover::after{
 -webkit-transform: rotate(180deg);
@@ -84,12 +83,13 @@ padding: 0;
 -ms-transform: rotate(180deg);
 -o-transform: rotate(180deg);
 transform: rotate(180deg);
-
 -webkit-transition: transform .5s ease;
 -moz-transition: transform .5s ease;
 -ms-transition: transform .5s ease;
 -o-transition: transform .5s ease;
 transition: transform .5s ease;
+    transform-origin: 3px 1.5px;
+    /*设置旋转的位置*/
 }
 
 #header .triangle{
@@ -256,7 +256,7 @@ display: block;
 
 
 }
-#navigation .text{
+#navigation span{
     width: 64px;
     height: 36px;
     position: absolute;
@@ -273,14 +273,22 @@ display: block;
 #navigation .center{
    padding-top: 4px ;
 }
+#navigation a:hover{
+
+    color: #FF0036;
+
+}
 #navigation a{
     color: #000;
 }
 #back-img{
-    background: #6a6b99;
+    background: #4c2efe url("../img/img5.webp") no-repeat center;
+    position: relative;
+    height: 500px;
+
 }
 #back-img .back-navigation{
-    opacity:0.4;
+    opacity:0.8;
 }
 #back-img .back-navigation .m-left{
     margin-left: 76px;
@@ -290,3 +298,29 @@ display: block;
     background: #999999;
 
 }
+#back-img .m-left li{
+    height: 31.2px;
+
+}
+#back-img .img-top,#back-img .img-bottom{
+    width: 220px;
+   position: absolute;
+}
+.img-top{
+    top: 10px;
+    right: 50px;
+    background: white;
+    filter:alpha（opacity=80）;
+    opacity:0.8;
+}
+.img-bottom{
+    bottom: 10px;
+    right: 50px;
+    background: white;
+    filter:alpha（opacity=80）;
+    opacity:0.8;
+}
+#back-img .m-left a:hover{
+    color: #ff111a;
+    background: white;
+ }
